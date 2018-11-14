@@ -1,0 +1,375 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5B60E6CD219512E4005FFDB1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B60E6CC219512E4005FFDB1 /* AppDelegate.swift */; };
+		5B60E6CF219512E4005FFDB1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B60E6CE219512E4005FFDB1 /* ViewController.swift */; };
+		5B60E6D2219512E4005FFDB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B60E6D0219512E4005FFDB1 /* Main.storyboard */; };
+		5B60E6D4219512E5005FFDB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B60E6D3219512E5005FFDB1 /* Assets.xcassets */; };
+		5B60E6D7219512E5005FFDB1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B60E6D5219512E5005FFDB1 /* LaunchScreen.storyboard */; };
+		5B60E6E421952139005FFDB1 /* DWMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B60E6E321952139005FFDB1 /* DWMediator.m */; };
+		5B60E6E6219523F7005FFDB1 /* NextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B60E6E5219523F7005FFDB1 /* NextViewController.swift */; };
+		5B60E6E821952506005FFDB1 /* NextModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B60E6E721952506005FFDB1 /* NextModel.swift */; };
+		5B60E6F42195348C005FFDB1 /* DWModuleNext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B60E6F32195348C005FFDB1 /* DWModuleNext.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5B60E6C9219512E4005FFDB1 /* DWMediatorDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DWMediatorDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B60E6CC219512E4005FFDB1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5B60E6CE219512E4005FFDB1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5B60E6D1219512E4005FFDB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5B60E6D3219512E5005FFDB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5B60E6D6219512E5005FFDB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5B60E6D8219512E5005FFDB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B60E6E121952139005FFDB1 /* DWMediatorDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DWMediatorDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		5B60E6E221952139005FFDB1 /* DWMediator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DWMediator.h; sourceTree = "<group>"; };
+		5B60E6E321952139005FFDB1 /* DWMediator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DWMediator.m; sourceTree = "<group>"; };
+		5B60E6E5219523F7005FFDB1 /* NextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextViewController.swift; sourceTree = "<group>"; };
+		5B60E6E721952506005FFDB1 /* NextModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextModel.swift; sourceTree = "<group>"; };
+		5B60E6F32195348C005FFDB1 /* DWModuleNext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DWModuleNext.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5B60E6C6219512E4005FFDB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B60E6C0219512E4005FFDB1 = {
+			isa = PBXGroup;
+			children = (
+				5B60E6CB219512E4005FFDB1 /* DWMediatorDemo */,
+				5B60E6CA219512E4005FFDB1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5B60E6CA219512E4005FFDB1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B60E6C9219512E4005FFDB1 /* DWMediatorDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5B60E6CB219512E4005FFDB1 /* DWMediatorDemo */ = {
+			isa = PBXGroup;
+			children = (
+				5B60E6DE219512F5005FFDB1 /* DWMediator */,
+				5B60E6CC219512E4005FFDB1 /* AppDelegate.swift */,
+				5B60E6CE219512E4005FFDB1 /* ViewController.swift */,
+				5B60E6E5219523F7005FFDB1 /* NextViewController.swift */,
+				5B60E6F32195348C005FFDB1 /* DWModuleNext.swift */,
+				5B60E6E721952506005FFDB1 /* NextModel.swift */,
+				5B60E6D0219512E4005FFDB1 /* Main.storyboard */,
+				5B60E6D3219512E5005FFDB1 /* Assets.xcassets */,
+				5B60E6D5219512E5005FFDB1 /* LaunchScreen.storyboard */,
+				5B60E6D8219512E5005FFDB1 /* Info.plist */,
+			);
+			path = DWMediatorDemo;
+			sourceTree = "<group>";
+		};
+		5B60E6DE219512F5005FFDB1 /* DWMediator */ = {
+			isa = PBXGroup;
+			children = (
+				5B60E6E121952139005FFDB1 /* DWMediatorDemo-Bridging-Header.h */,
+				5B60E6E221952139005FFDB1 /* DWMediator.h */,
+				5B60E6E321952139005FFDB1 /* DWMediator.m */,
+			);
+			path = DWMediator;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5B60E6C8219512E4005FFDB1 /* DWMediatorDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B60E6DB219512E5005FFDB1 /* Build configuration list for PBXNativeTarget "DWMediatorDemo" */;
+			buildPhases = (
+				5B60E6C5219512E4005FFDB1 /* Sources */,
+				5B60E6C6219512E4005FFDB1 /* Frameworks */,
+				5B60E6C7219512E4005FFDB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DWMediatorDemo;
+			productName = DWMediatorDemo;
+			productReference = 5B60E6C9219512E4005FFDB1 /* DWMediatorDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5B60E6C1219512E4005FFDB1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Crazy Davy";
+				TargetAttributes = {
+					5B60E6C8219512E4005FFDB1 = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
+					};
+				};
+			};
+			buildConfigurationList = 5B60E6C4219512E4005FFDB1 /* Build configuration list for PBXProject "DWMediatorDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5B60E6C0219512E4005FFDB1;
+			productRefGroup = 5B60E6CA219512E4005FFDB1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5B60E6C8219512E4005FFDB1 /* DWMediatorDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5B60E6C7219512E4005FFDB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B60E6D7219512E5005FFDB1 /* LaunchScreen.storyboard in Resources */,
+				5B60E6D4219512E5005FFDB1 /* Assets.xcassets in Resources */,
+				5B60E6D2219512E4005FFDB1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5B60E6C5219512E4005FFDB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B60E6E821952506005FFDB1 /* NextModel.swift in Sources */,
+				5B60E6E421952139005FFDB1 /* DWMediator.m in Sources */,
+				5B60E6E6219523F7005FFDB1 /* NextViewController.swift in Sources */,
+				5B60E6CF219512E4005FFDB1 /* ViewController.swift in Sources */,
+				5B60E6CD219512E4005FFDB1 /* AppDelegate.swift in Sources */,
+				5B60E6F42195348C005FFDB1 /* DWModuleNext.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5B60E6D0219512E4005FFDB1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B60E6D1219512E4005FFDB1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5B60E6D5219512E5005FFDB1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B60E6D6219512E5005FFDB1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5B60E6D9219512E5005FFDB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5B60E6DA219512E5005FFDB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5B60E6DC219512E5005FFDB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = DWMediatorDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Davy.DWMediatorDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DWMediatorDemo/DWMediator/DWMediatorDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5B60E6DD219512E5005FFDB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = DWMediatorDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Davy.DWMediatorDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DWMediatorDemo/DWMediator/DWMediatorDemo-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5B60E6C4219512E4005FFDB1 /* Build configuration list for PBXProject "DWMediatorDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B60E6D9219512E5005FFDB1 /* Debug */,
+				5B60E6DA219512E5005FFDB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B60E6DB219512E5005FFDB1 /* Build configuration list for PBXNativeTarget "DWMediatorDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B60E6DC219512E5005FFDB1 /* Debug */,
+				5B60E6DD219512E5005FFDB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5B60E6C1219512E4005FFDB1 /* Project object */;
+}
