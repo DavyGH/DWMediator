@@ -23,7 +23,6 @@
 
 可以对每个模块写一个类进行管理
 
-class DWModuleNext: NSObject {
     func action_ToNextViewControllerWithModel(params: [String:Any]?) -> UIViewController? {
         let vc = NextViewController()
         if let model = params?["model"] as? NextModel {
@@ -31,12 +30,3 @@ class DWModuleNext: NSObject {
         }
         return vc
     }
-    
-    func action_ToNextViewControllerWithDict(params: [String:Any]?) -> UIViewController? {
-        let vc = NextViewController()
-        if params != nil {
-            vc.dict = params
-        }
-        return vc
-    }
-}
