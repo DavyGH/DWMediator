@@ -23,21 +23,10 @@
 
 可以对每个模块写一个类进行管理
 
-@objc(DWModuleNext)
-class DWModuleNext: NSObject {
-    @objc func action_ToNextViewControllerWithModel(params: [String:Any]?) -> UIViewController? {
+@objc func action_ToNextViewControllerWithModel(params: [String:Any]?) -> UIViewController? {
         let vc = NextViewController()
         if let model = params?["model"] as? NextModel {
             vc.model = model
         }
         return vc
     }
-    
-    @objc func action_ToNextViewControllerWithDict(params: [String:Any]?) -> UIViewController? {
-        let vc = NextViewController()
-        if params != nil {
-            vc.dict = params
-        }
-        return vc
-    }
-}
