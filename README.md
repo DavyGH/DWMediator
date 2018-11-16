@@ -30,3 +30,13 @@
         }
         return vc
     }
+    
+    // 模块类 模块中的方法名称 传递的参数
+    func dw_routerToNextViewControllerWithModel(_ params: [String:Any]?) -> UIViewController? {
+        guard let vc = performTarget("DWModuleNext", action: "action_ToNextViewControllerWithModel", params: params ?? [:], shouldCacheTarget: false) as? UIViewController else {
+            print("未找到NextViewController")
+            // 这里处理异常场景，具体如何处理取决于产品
+            return UIViewController()
+        }
+        return vc
+    }
